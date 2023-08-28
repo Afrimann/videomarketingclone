@@ -1,0 +1,328 @@
+/* @media screen and (max-width:1261px) {
+    .home{
+        padding-left: 180px;
+      }
+
+      .main-text{
+        max-width: 200px;
+      }
+      .column-1 .par-2{
+        max-width: 250px;
+      }
+     .column-1 .column-1-button-link{
+
+    }
+} */
+
+@media screen and (max-width:430px) {
+  .header{
+    padding: 30px;
+  }
+  .header .image-logo{
+    height: 60px;
+    width: 180px;
+}
+
+.image-logo img{
+    width: 100%;
+}
+   
+    .home{
+      padding: 40px;
+      padding-top: 0px;
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+    .home .column-1{
+        width: 100%;
+    }
+    .home .column-1 .par-1{
+      font-size: 11px;
+    }
+    .column-1 .main-text{
+      font-size: 25px;
+    }
+    .main-text span{
+      font-size: inherit;
+    }
+    .column-1 .par-2{
+      font-size: 13px;
+      font-weight: 500;
+      border: none;
+      padding-top: 30px;
+      padding-bottom: 0px;
+    
+    }
+
+    .column-1 .column-1-button-link{
+      flex-flow: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .column-1-button-link .access-video,
+    .column-1-button-link .learn-more{
+      width: 100%;
+    }
+    .access-video .access-video-link{
+      padding-right: 100px;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .learn-more .learn-more-link{
+      padding-right: 220px;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .co_owner-info .info-image{
+      height: 140px;
+      width: 140px;
+    }
+    .co_owner-info .par-3{
+      font-size: 9.5px;
+    }
+    .par-3 h2{
+      padding-top: 5px;
+      font-size: 11px;
+    }
+
+    /* column-2 */
+    .home .column-2{
+      width: 100%;
+      padding-bottom: 30px;
+    }
+
+    .showcase-videos{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+
+    }
+    .videos{
+      height: 180;
+      width: 200;
+      
+    }
+    .videos video{
+      width: 100%;
+    }
+    .showcase-videos .videos{
+      margin-bottom: -140px;
+    }
+
+    .showcase-videos .video-2,
+    .showcase-videos .video-4,
+    .showcase-videos .video-6{
+      margin-top: 10px;
+    }
+
+
+    /* content media queries */
+    .content-intro h1{
+      color: rgb(243,244,246);
+      text-align: center;
+      font-size: 23px;
+      /* line-height: 1; */
+    }
+  .content-intro h1>span{
+    padding-top: 7px;
+  }
+  .content-intro p{
+    font-size: 10px;
+  }
+  .content-intro .ascert{
+    padding-top: 10px;
+  }
+
+
+  /* filter media queries */
+  .filter{
+    flex-flow: column;
+  }
+
+  .filter-2{
+    display: none;
+  }
+  .filter-3{
+    width: 100%;
+  }
+  .filter-3 video{
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* saas advertisement styles */
+
+  .saas-ad h1{
+    font-size: 25px;
+  }
+  .saas-ad .saas-ad-head>span{
+    position: relative;
+    bottom: 15px;
+  }
+  .saas-ad-con{
+    font-size: 14px;
+    padding: 0px 20px 0 20px;
+  }
+
+  .saas-ad-container img{
+    width: 100%;  
+    padding: 30px 0 60px 0;
+
+  }
+  .love-grad{
+    font-size: inherit;
+  }
+
+  .saas-ad-con-2{
+    padding-top: 10px;
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  /* charts explore */
+  .charts-explore{
+    padding-bottom: 0px;
+  }
+  .data-showcase{
+    flex-flow: column;
+    padding-bottom: 0;
+  }
+  .data{
+    padding-top: 0px;
+  }
+  .curated-images{
+    padding: 0px 10px 5px 10px;
+    height: 160px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .curated-images img{
+    width: 100%;
+  }
+  .curated-images p{
+    top: 60px;
+    font-size: 14px;
+  }
+
+  /* end content */
+  .end-content{
+    padding-bottom: 4rem;
+  }
+  .end-content-container{
+    flex-flow: column;
+    width: 100%;
+    padding-top: 0px;
+    gap: 0;
+  }
+  .end-content-1{
+    padding-top: 60px;
+  }
+  .end-content-1 h2{
+    font-size: 25px;
+    max-width: 90%;
+  }
+
+
+
+  
+.end-content-1 .point-content h3{
+  font-size: 13px;
+  color: rgb(190, 190, 190);
+}
+
+.end-content-1 .point-content p{
+  font-size: 10px;
+  font-weight: 600;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.end-content-2{
+  padding: 30px;
+  height: 350px;
+  width: 350px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.end-content-2 .life-access{
+  position: relative;
+  bottom: 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  /* padding-top: 10px; */
+
+}
+.curr-price{
+  font-weight: 100;
+  font-size: 30px;
+  padding: 0px 0 15px 0;
+}
+.end-content-2 h1{
+  font-size: 50px;
+}
+.end-content-2 .one-time{
+  font-size: 11px;
+  position: relative;
+  bottom: 20px;
+}
+.dis-price{
+  font-size: 11px;
+  position: relative;
+  bottom: 30px;
+}
+.full-access{
+  font-size: 13px;
+  position: relative;
+  bottom: 30px;
+}
+.Unlimited{
+  position: relative;
+  bottom: 30px;
+}
+.get-access{
+  position: relative;
+  bottom: 30px;
+}
+.get-access:hover{
+  background: rgb(17,24,39);
+  box-shadow: 3px 3px rgb(216,70,239);
+}
+
+/* quote-sect */
+  .quote-sect .quote-content{
+    font-size: 13px;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+/* footer */
+
+.footer-container{
+  flex-flow: column;
+  gap: 30px;
+}
+.footer-content-1 img{
+  width: 150px;
+}
+.footer-content-1 p{
+  font-size: 10px;
+}
+
+.footer-content-2 h3,
+.footer-content-3 h3,
+.footer-content-4 h3{
+  font-size: 12px;
+}
+.footer-content-3 li,
+.footer-content-2 li,
+.footer-content-4 li{
+  font-size: 13px;
+  cursor: pointer;
+}
+.Copyright{
+  padding-top: 20px;
+}
