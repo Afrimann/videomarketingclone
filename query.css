@@ -297,9 +297,8 @@
     padding: 20px;
     padding-bottom: 30px;
   }
-}
 
-/* footer */
+    /* footer */
 
 .footer-container{
   flex-flow: column;
@@ -326,3 +325,5 @@
 .Copyright{
   padding-top: 20px;
 }
+}
+
